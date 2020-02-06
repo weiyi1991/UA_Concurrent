@@ -1,0 +1,4 @@
+*.pyc
+./model/
+./runs/
+./__pycache__/
