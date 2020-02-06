@@ -1,5 +1,5 @@
 # SRN
-PyTorch Source code for "[3D Single-Person Concurrent Activity Detection Using Stacked Relation Network], AAAI2020
+PyTorch Source code for "3D Single-Person Concurrent Activity Detection Using Stacked Relation Network", AAAI2020
 
 ## Requirements
 - python packages

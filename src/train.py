@@ -23,7 +23,7 @@ def print_model(model):
 parser = argparse.ArgumentParser(description='Relation network for concurrent activity detection')
 parser.add_argument('--BATCH_SIZE', type=int, default=256, help='Training batch size. Default=256')
 parser.add_argument('--save_every', type=int, default=5, help='Save model every save_every epochs. Defualt=5')
-parser.add_argument('--EPOCH', type=int, default=600, help='Number of epochs to train. Default=600')
+parser.add_argument('--EPOCH', type=int, default=500, help='Number of epochs to train. Default=600')
 parser.add_argument('--LR', type=float, default=0.001, help='Learning Rate. Default=0.001')
 parser.add_argument('--TRAIN', action='store_true', default=True, help='Train or test? ')
 parser.add_argument('--DEBUG', action='store_true', default=False, help='Debug mode (load less data)? Defualt=False')
